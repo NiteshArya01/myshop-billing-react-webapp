@@ -1,0 +1,303 @@
+// Login/Signup style
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/images/wrapper-image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wrapper-left {
+    width: 40%;
+    height: 100vh;
+    float: left;
+
+}
+
+.wrapper-right {
+    width: 60%;
+    height: 100vh;
+    float: left;
+    background-color: #000;
+    opacity: 90%;
+}
+
+.wrapper-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.sign-form {
+    width: 60%;
+    margin: auto;
+    top: auto;
+    color: #fff;
+    background: none !important;
+    margin-top: 15%;
+}
+
+.or-left {
+    width: calc(50% - 15px);
+    float: left;
+    background-color: #fff;
+    height: 1px;
+    margin-top: 12px;
+}
+
+.or-middle {
+    width: 30px;
+    float: left;
+    text-align: center;
+    height: 30px;
+}
+
+.or-right {
+    width: calc(50% - 15px);
+    float: right;
+    background-color: #fff;
+    height: 1px;
+    margin-top: 12px;
+}
+
+.login-text {
+    color: aqua;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.login-text:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+@media screen and (max-width: 750px) {
+    .wrapper-left {
+        width: 20%;
+    }
+
+    .wrapper-right {
+        width: 80%;
+    }
+
+    .sign-form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper-left {
+        width: 0%;
+    }
+
+    .wrapper-right {
+        width: 100%;
+    }
+
+    .sign-form {
+        width: 90%;
+    }
+}
+
+// Login/Sign style end -------------------------------------------
+
+
+.wrapper-container {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-body {
+    width: 100%;
+    height: auto;
+}
+
+.side-nav {
+    width: 200px;
+    background-color: #000;
+    float: left;
+    height: calc(100vh - 58px);
+}
+
+.section {
+    float: left;
+    width: calc(100% - 200px);
+    background-color: #f8f9fa;
+    height: calc(100vh - 58px);
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.btn-custom {
+    background-color: #212529;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.btn-custom:hover {
+    background: #41464b;
+}
+
+.btn-custom-close {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.btn-custom-close:hover {
+    background-color: #41464b;
+}
+
+
+// Dashboard style ---------------------------------------
+.filter-type {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.filter-type:focus {
+    outline: none;
+}
+
+.customers-card {
+    background-color: #FF9F43;
+    border-radius: 6px;
+    color: #fff !important;
+}
+
+.suppliers-card {
+    background-color: #00CFE8;
+    border-radius: 6px;
+    color: #fff !important;
+}
+
+.purchase-invoice-card {
+    background-color: #1B2850;
+    border-radius: 6px;
+    color: #fff !important;
+}
+
+.sales-invoice-card {
+    background-color: #28C76F;
+    border-radius: 6px;
+    color: #fff !important;
+}
+
+.invoice-table thead {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.invoice-table thead tr th {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.invoice-table tbody tr td {
+    font-size: 13px;
+}
+
+.table-footer {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-show-more {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-show-more:hover {
+    font-weight: bold;
+}
+
+// dashboard style end ----------------------------------------------------
+
+
+// Invocie style start
+.tab-style {
+    // border-bottom: 2px solid #999;
+    cursor: pointer;
+}
+
+.tab-active {
+    color: #fff;
+    background-color: #212529;
+    border-bottom: 2px solid #fd7e14;
+}
+
+.tab-inactive {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.btn-remove {
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-addmore {
+    background-color: #28C76F;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.modal-body {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.btn-custom-preview {
+    background-color: #fd7e14;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.btn-custom-preview:hover {
+    background-color: #fd7e14d1;
+}
+
+// Invoice style end
